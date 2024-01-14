@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <header>
+    <h2>Registration Form</h2>
+  </header>
+
+  <main>
+      <p>Register your Jackson Electronics product here</p>
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="address1">Address 1</label>
+        <input type="text" name="address1" id="address1" required>
+      </div>
+
+      <div class="form-group">
+        <label for="address2">Address 2</label>
+        <input type="text" name="address2" id="address2">
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" required>
+      </div>
+
+      <div class="form-group">
+        <label for="state">State</label>
+        <input type="text" name="state" id="state" required>
+      </div>
+
+      <div class="form-group">
+        <label for="zip">Zip</label>
+        <input type="text" name="zip" id="zip" required>
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country" required>
+      </div>
+
+      <div class="form-group">
+        <label for="product">Product</label>
+        <input type="text" name="product" id="product" required>
+      </div>
+
+      <div class="form-group">
+        <label for="datePurchased">Date Purchased</label>
+        <input type="date" name="datePurchased" id="datePurchased" required>
+      </div>
+
+      <div class="form-group">
+        <label for="serialNumber">Serial Number</label>
+        <input type="text" name="serialNumber" id="serialNumber" required>
+      </div>
+
+      <div class="form-group">
+        <label for="usedFor">Used For</label>
+        <select name="usedFor" id="usedFor">
+          <option value="Home">Home</option>
+          <option value="Educational Institution">Educational Institution</option>
+          <option value="Business">Business</option>
+          <option value="Other">Other</option>
+          <option value="Government">Government</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="system">System</label>
+        <input type="checkbox" name="system[]" value="Windows"> Windows
+        <input type="checkbox" name="system[]" value="UNIX"> UNIX
+        <input type="checkbox" name="system[]" value="Macintosh"> Macintosh
+        <input type="checkbox" name="system[]" value="Other"> Other
+      </div>
+
+      <div class="form-group">
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments"></textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Register">
+        <input type="reset" value="Cancel">
+      </div>
+
+  </main>
+
+</body>
+</html>
