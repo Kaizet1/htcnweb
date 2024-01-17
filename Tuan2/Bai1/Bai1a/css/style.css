@@ -1,0 +1,50 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #9d2e41;
+    padding: 25px;
+}
+
+header div {
+    text-indent: 40px;
+}
+
+header div a {
+    text-decoration: none;
+}
+
+article h1 {
+    color: #9d2e41;
+    background-color: #f5f5dd;
+}
+
+article ul {
+    margin-left: 50px;
+}
+
+u {
+    color: red;
+    font-weight: 900;
+}
+
+.back {
+    color: red;
+    font-weight: 900;
+}
+
+#starters ul li:nth-child(3) {
+    color: #c7622f;
+    text-transform: uppercase;
+}
