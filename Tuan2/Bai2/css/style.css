@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: url(../images/background.png);
+  position: relative;
+}
+header img {
+  float: left;
+}
+header h1,
+header h2 {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+header h1 {
+  top: 35px;
+  font-size: 50px;
+}
+header h2 {
+  top: 30px;
+}
+
+nav {
+  background-color: #b2aeab;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+section {
+  position: relative;
+  display: flex;
+}
+section main {
+  position: relative;
+  width: 60%;
+}
+section article {
+  position: relative;
+  display: flex;
+}
+section aside {
+  position: relative;
+  width: 40%;
+}
+article img {
+  margin: 30px 30px 0 30px;
+}
+.text-container h2 {
+  margin-top: 40px;
+}
+.text-container h3 {
+  color: #e26c8c;
+}
+.text-container p {
+  margin-top: 15px;
+}
+.img-container p {
+  margin-left: 30px;
+}
+aside h2, aside h3 {
+  color: #e26c8c;
+}
+aside h2 {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+aside #recipes h3 {
+  margin: 20px 20px 20px 40px;
+}
+aside #contact h2 {
+  margin-bottom: 30px;
+}
+aside #contact h3 {
+  color: black;
+  margin-left: 30px;
+  font-weight: normal;
+}
+footer {
+  background: #b2aeab;
+}
+footer h3 {
+  color: white;
+  text-indent: 30px;
+  margin-top: 10px;
+}
