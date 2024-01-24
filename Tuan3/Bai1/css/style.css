@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.171303074670571vw;
+}
+
+body {
+    background: #67bdec;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__header {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    border-bottom: 0.3125rem dotted white;
+}
+
+.container__header ul {
+    display: flex;
+}
+
+.container__header ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.container__header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container__header__title {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: blue 1px 0 10px;
+}
+
+.container__main {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border-bottom: 0.3125rem dotted white;
+}
+
+.container__main__left {
+    position: relative;
+    margin-left: .5rem;
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.container__main__left__title {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.container__main__left p {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+}
+
+.container__main__left__formWrapper {
+    width: 80%;
+    height: 50%;
+    margin: .3rem 0 0 3rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container__main__left__formWrapper__formInput {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: .5rem;
+}
+
+.container__main__left__formWrapper__formInput label {
+    font-size: .9rem;
+}
+.container__main__left__formWrapper__formInput input, .container__main__left__formWrapper__formInput textarea {
+    position: absolute;
+    border: 1px solid blue;
+    border-radius: .3rem;
+    left: 40%;
+}
+#textAreaLabel {
+    width: 50%;
+    border: 1px solid red;
+}
+#genderSelect {
+    width: 15%;
+}

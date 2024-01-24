@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__header">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <span class="container__header__title">Sky World</span>
+        </div>
+        <div class="container__main">
+            <div class="container__main__left">
+                <h1 class="container__main__left__title">Registration Information</h1>
+                <p>Start your travel planning now with our on-line tour regstration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact you to create the perfect custom built for your group's needs .</p>
+                <div class="container__main__left__formWrapper">
+                    <div class="container__main__left__formWrapper__formInput">
+                        <label for="genderSelect">Title </label>
+                        <input list="gender" id="genderSelect" name="genderSelect">
+                        <datalist id="gender">
+                            <option value="Mr.">
+                            <option value="Mrs.">
+                        </datalist>
+                    </div>
+                    <div class="container__main__left__formWrapper__formInput">
+                        <label for="fname">Full Name *</label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name">
+                    </div>
+                    <div class="container__main__left__formWrapper__formInput">
+                        <label for="maddress">Mailing Address</label>
+                        <input type="text" id="maddress" name="maddress" placeholder="Mailing Address">
+                    </div>
+                    <div class="container__main__left__formWrapper__formInput">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="City">
+                    </div>
+                    <div class="container__main__left__formWrapper__formInput">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="Country">
+                    </div>
+                    <div class="container__main__left__formWrapper__formInput">
+                        <label id ="textAreaLabel" for="questions">Specific questions or requests about your tour</label>
+                        <textarea name="questions" value="" rows="4" cols="20" placeholder="Specific questions or requests about your tour"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
