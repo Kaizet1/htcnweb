@@ -81,7 +81,7 @@ body {
 
 .container__main__left__formWrapper {
     width: 80%;
-    height: 50%;
+    height: 55%;
     margin: .3rem 0 0 3rem;
     /* border: 1px solid red; */
     display: flex;
@@ -104,9 +104,22 @@ body {
     border-radius: .3rem;
     left: 40%;
 }
-#textAreaLabel {
-    width: 50%;
-    border: 1px solid red;
+.container__main__left__formWrapper .container__main__left__formWrapper__formInput:nth-child(6) {
+   display: flex;
+   min-height: 30%;
+   align-items: center;
+}
+.container__main__left__formWrapper__formSubmitButtons {
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    bottom: 10%;
+    left: 42%;
+}
+.container__main__left__formWrapper__formSubmitButtons input {
+    border: 1px dashed blue;
+    font-size: .8rem;
+    padding: 0 3px 0 3px;
 }
 #genderSelect {
     width: 15%;
