@@ -10,6 +10,7 @@
 
 <body>
     <div class="container">
+
         <div class="container__header">
             <ul>
                 <li><a href="">Home</a></li>
@@ -20,6 +21,9 @@
             </ul>
             <span class="container__header__title">Sky World</span>
         </div>
+
+        <!--  -->
+
         <div class="container__main">
             <div class="container__main__left">
                 <h1 class="container__main__left__title">Registration Information</h1>
@@ -29,38 +33,58 @@
                 <div class="container__main__left__formWrapper">
                     <div class="container__main__left__formWrapper__formInput">
                         <label for="genderSelect">Title </label>
-                        <input list="gender" id="genderSelect" name="genderSelect">
+                        <input list="gender" id="genderSelect" name="genderSelect" autofocus>
                         <datalist id="gender">
                             <option value="Mr.">
                             <option value="Mrs.">
                         </datalist>
                     </div>
+
                     <div class="container__main__left__formWrapper__formInput">
                         <label for="fname">Full Name *</label>
                         <input type="text" id="fname" name="fname" placeholder="First Name">
                     </div>
+
                     <div class="container__main__left__formWrapper__formInput">
                         <label for="maddress">Mailing Address</label>
                         <input type="text" id="maddress" name="maddress" placeholder="Mailing Address">
                     </div>
+
                     <div class="container__main__left__formWrapper__formInput">
                         <label for="city">City</label>
                         <input type="text" id="city" name="city" placeholder="City">
                     </div>
+
                     <div class="container__main__left__formWrapper__formInput">
                         <label for="country">Country</label>
                         <input type="text" id="country" name="country" placeholder="Country">
                     </div>
+
                     <div class="container__main__left__formWrapper__formInput">
                         <label for="questions">Specific questions or <br> requests about your tour</label>
-                        <textarea name="questions" value="" rows="5" cols="22" placeholder="Specific questions or requests about your tour"></textarea>
+                        <textarea name="questions" value="" rows="5" cols="22"
+                            placeholder="Specific questions or requests about your tour"></textarea>
                     </div>
+
                     <div class="container__main__left__formWrapper__formSubmitButtons">
                         <input type="submit" value="Submit">
                         <input type="submit" value="Reset">
                     </div>
+
                 </div>
             </div>
+            <div class="container__main__right">
+                <img src="../images/sky.png" alt="">
+                <h1>Your've arrived.</h1>
+                <h2>Journeys as great as the destinations.</h2>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="container__footer">
+            <h1>2016 Sky World Tours. All rights reserved.</h1>
+            <h2>Contact information: <b><i>Student Name</i></b> | <b><i>Student ID</i></b> | Testing Date: <b><i>27 Jan 2024</i></b> </h2>
         </div>
     </div>
 </body>

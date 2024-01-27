@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "Rebecca Samuels W01 Regular";
+  src: url("https://db.onlinewebfonts.com/t/5a81378704abafb480427b49f4d0e6a4.eot");
+  src: url("https://db.onlinewebfonts.com/t/5a81378704abafb480427b49f4d0e6a4.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5a81378704abafb480427b49f4d0e6a4.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5a81378704abafb480427b49f4d0e6a4.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5a81378704abafb480427b49f4d0e6a4.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5a81378704abafb480427b49f4d0e6a4.svg#Rebecca Samuels W01 Regular")
+      format("svg");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4814814814814814vh;
+}
+
+body {
+  color: white;
+  font-family: "Rebecca Samuels W01 Regular";
+}
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container__header {
+  position: relative;
+  background: #294e79;
+  height: 15%;
+  width: 100%;
+  display: flex;
+}
+.container__header img {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  width: 5%;
+  height: 95%;
+}
+.container__header__title {
+  margin: 1.5rem 0 0 1rem;
+  width: 30%;
+}
+.container__header__title h1 {
+  font-size: 4rem;
+}
+.container__header__title h2 {
+  font-size: 2rem;
+}
+
+.container__header__right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.container__header__right__searchBar {
+  position: absolute;
+  width: 25%;
+  top: 1.5rem;
+  right: 0;
+}
+
+.container__header__right__searchBar input {
+  border: 1px solid #3d73b1;
+  background: #1c3451;
+  color: white;
+  padding: 0.5rem;
+}
+.container__header__right__searchBar #searchBox {
+  width: 72.5%;
+}
+.container__header__right__searchBar #submitButton {
+  margin-left: 1rem;
+}
+::placeholder {
+  color: white;
+}
+.container__header__right__navBar {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+}
+.container__header ul {
+  position: absolute;
+  display: flex;
+  bottom: 0.1rem;
+  right: 0;
+}
+.container__header ul li {
+  list-style-type: none;
+  background: #3d73b1;
+  padding: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+.container__header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+.container__main {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.container__main__left {
+  position: relative;
+  height: 100%;
+  width: 60%;
+  margin-left: 1.5rem;
+}
+.container__main__left > h1 {
+  margin-top: 4rem;
+}
+.container__main h1 {
+  color: rgb(88, 88, 88);
+  font-weight: normal;
+  font-size: 3rem;
+}
+.container__main__left__content {
+  position: relative;
+  margin-top: 1rem;
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.contentBox {
+  border-top: 2px dashed grey;
+}
+.container__main__left__content__left {
+  position: relative;
+  width: 55%;
+}
+.container__main__left__content__left p {
+    margin-top: 2rem;
+    font-size: 2rem;
+    width: 95%;
+    color: red;
+    font-style: italic;
+    text-shadow: 2px 2px 8px green;
+}
+.container__main__left__content__left__formWrapper {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container__main__left__content__left__formWrapper__inputWrapper {
+    position: relative;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 0 0;
+}
+.container__main__left__content__left__formWrapper__inputWrapper label {
+    color: grey;
+    font-size: 1.5rem;
+}
+.container__main__left__content__left__formWrapper__inputWrapper > input {
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+}
+.container__main__left__content__left__formWrapper__inputWrapper > div {
+  margin-top: 1rem;
+}
+.container__main__left__content__left__formWrapper__inputWrapper div input {
+  border: 1px solid rgba(128, 128, 128, 0.479);
+  color: grey;
+  padding: .3rem;
+}
+.container__main__left__content__left__formWrapper__inputWrapper textarea {
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    width: 205%;
+}
+.container__main__left__content__right {
+  width: 42.5%;
+}
+.container__main__left__content__right__content ul {
+  margin-top: 2rem;
+}
+.container__main__left__content__right__content ul li {
+  list-style-type: none;
+  color: grey;
+  font-size: 1.5rem;
+}
+.container__main__left__content__right > h1 {
+  padding: 1.5rem 0 1.5rem 0;
+}
+.container__main__right {
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 3.5%;
+  width: 25%;
+  height: 90%;
+  background: #eee7dc;
+}
+.container__main__right > h1 {
+  margin-top: 2.5rem;
+}
+.container__main__right__content {
+  position: relative;
+  margin-top: 1rem;
+  width: 100%;
+  height: 85%;
+}
+.container__main__right__content__roseImage {
+  margin-top: 3rem;
+  width: 100%;
+  height: 32%;
+  border: 1px solid rgba(128, 128, 128, 0.479);
+  background-image: url(../images/rose.png);
+  background-repeat: no-repeat;
+  background-size: 99%;
+  background-position: center;
+}
+
+.container__main__right__content > p {
+  margin-top: 2rem;
+  color: rgb(66, 66, 66);
+  font-size: 2rem;
+}
+.container__main__right__content span {
+  position: absolute;
+  margin-top: 2rem;
+  color: #294e79;
+  font-size: 2rem;
+  font-weight: bold;
+  right: 0;
+}
+.container__footer {
+  position: relative;
+  height: 5%;
+  background: #1c3451;
+}
+.container__footer h1 {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+.container__footer span {
+  font-size: 1.5rem;
+  color: #8cacce;
+}
